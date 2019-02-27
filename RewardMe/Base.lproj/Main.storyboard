@@ -30,10 +30,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="iMz-rL-boa"/>
                     </view>
+                    <connections>
+                        <segue destination="7Kv-34-Yrx" kind="showDetail" identifier="goToMainScreen" id="t0c-Om-Rx1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZQ6-8t-BWN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1020" y="833"/>
+            <point key="canvasLocation" x="-2500" y="833"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ior-Pb-7eX">

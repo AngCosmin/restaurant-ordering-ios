@@ -33,7 +33,8 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate, GIDSignInDeleg
             
             print (authResult!.user.email! + " " + authResult!.user.displayName!)
             SVProgressHUD.dismiss()
-            self.navigationController!.popToRootViewController(animated: true)
+            // self.navigationController?.popToRootViewController(animated: true)
+            self.performSegue(withIdentifier: "goToMainScreen", sender: self)
         }
     }
     

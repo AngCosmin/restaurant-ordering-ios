@@ -15,12 +15,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Auth.auth().addStateDidChangeListener { [weak self] (_, user) in
+        Auth.auth().addStateDidChangeListener { (_, user) in
             if user != nil {
-                print ("User already logged in as " + (user?.email)!)
+                self.userLabel.text = "Logged as " + (user?.displayName)!
             } else {
                 print ("User is not logged in")
-                self?.performSegue(withIdentifier: "goToLogin", sender: self)
+                self.performSegue(withIdentifier: "goToLogin", sender: self)
             }
         }
     }
