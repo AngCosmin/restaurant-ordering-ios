@@ -12,6 +12,7 @@
 		172076F22226E73C00013EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172076F02226E73C00013EBD /* Main.storyboard */; };
 		172076F42226E73D00013EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172076F32226E73D00013EBD /* Assets.xcassets */; };
 		172076F72226E73D00013EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172076F52226E73D00013EBD /* LaunchScreen.storyboard */; };
+		17E55898222742F000FCAA0A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E55897222742F000FCAA0A /* LoginViewController.swift */; };
 		17F3E6222226FDF300AC2A64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17F3E6212226FDF300AC2A64 /* GoogleService-Info.plist */; };
 		389AD34B50F42DFD3B00A010 /* Pods_RewardMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A76D00CAA4AD53717953E37 /* Pods_RewardMe.framework */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 		172076F32226E73D00013EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		172076F62226E73D00013EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		172076F82226E73D00013EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E55897222742F000FCAA0A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		17F3E6212226FDF300AC2A64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3A76D00CAA4AD53717953E37 /* Pods_RewardMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RewardMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF0D81233F5653DF80A33DC /* Pods-RewardMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RewardMe/Pods-RewardMe.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		172076EB2226E73C00013EBD /* RewardMe */ = {
 			isa = PBXGroup;
 			children = (
+				17E55896222742B800FCAA0A /* Login */,
 				172076EC2226E73C00013EBD /* AppDelegate.swift */,
 				172076EE2226E73C00013EBD /* ViewController.swift */,
 				172076F02226E73C00013EBD /* Main.storyboard */,
@@ -72,6 +75,14 @@
 				172076F82226E73D00013EBD /* Info.plist */,
 			);
 			path = RewardMe;
+			sourceTree = "<group>";
+		};
+		17E55896222742B800FCAA0A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				17E55897222742F000FCAA0A /* LoginViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		78B75640E5386A44771D9353 /* Frameworks */ = {
@@ -247,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E55898222742F000FCAA0A /* LoginViewController.swift in Sources */,
 				172076EF2226E73C00013EBD /* ViewController.swift in Sources */,
 				172076ED2226E73C00013EBD /* AppDelegate.swift in Sources */,
 			);
