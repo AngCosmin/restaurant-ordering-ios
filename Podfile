@@ -8,6 +8,7 @@ target 'RewardMe' do
   # Pods for RewardMe
   pod 'Firebase'
   pod 'Firebase/Auth'
+  pod 'FirebaseUI/Google'
   pod 'Firebase/Database'
   pod 'GoogleSignIn'
   pod 'SVProgressHUD'
