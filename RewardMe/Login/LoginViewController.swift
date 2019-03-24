@@ -25,6 +25,7 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate, GIDSignInDeleg
         guard let authentication = user.authentication else { return }
         let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken, accessToken: authentication.accessToken)
         
+        // Authenticate
         Auth.auth().signInAndRetrieveData(with: credential) { (authResult, error) in
             if error != nil {
                 print (error!)
@@ -33,7 +34,6 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate, GIDSignInDeleg
             
             print (authResult!.user.email! + " " + authResult!.user.displayName!)
             SVProgressHUD.dismiss()
-            // self.navigationController?.popToRootViewController(animated: true)
             self.performSegue(withIdentifier: "goToMainScreen", sender: self)
         }
     }

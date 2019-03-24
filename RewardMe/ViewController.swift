@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Auth.auth().addStateDidChangeListener { (_, user) in
+        Auth.auth().addStateDidChangeListener { (auth, user) in
             if user != nil {
                 self.userLabel.text = "Logged as " + (user?.displayName)!
             } else {

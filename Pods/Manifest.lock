@@ -1,52 +1,55 @@
 PODS:
+  - Alamofire (4.8.1)
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
-  - Firebase (5.17.0):
-    - Firebase/Core (= 5.17.0)
-  - Firebase/Auth (5.17.0):
+  - Cosmos (18.0.1)
+  - Firebase (5.19.0):
+    - Firebase/Core (= 5.19.0)
+  - Firebase/Auth (5.19.0):
     - Firebase/CoreOnly
-    - FirebaseAuth (= 5.3.1)
-  - Firebase/Core (5.17.0):
+    - FirebaseAuth (= 5.4.1)
+  - Firebase/Core (5.19.0):
     - Firebase/CoreOnly
-    - FirebaseAnalytics (= 5.6.0)
-  - Firebase/CoreOnly (5.17.0):
-    - FirebaseCore (= 5.3.0)
-  - Firebase/Database (5.17.0):
+    - FirebaseAnalytics (= 5.8.0)
+  - Firebase/CoreOnly (5.19.0):
+    - FirebaseCore (= 5.4.0)
+  - Firebase/Database (5.19.0):
     - Firebase/CoreOnly
-    - FirebaseDatabase (= 5.1.0)
-  - FirebaseAnalytics (5.6.0):
-    - FirebaseCore (~> 5.3)
-    - FirebaseInstanceID (~> 3.5)
-    - GoogleAppMeasurement (= 5.6.0)
+    - FirebaseDatabase (= 5.1.1)
+  - FirebaseAnalytics (5.8.0):
+    - FirebaseCore (~> 5.4)
+    - FirebaseInstanceID (~> 3.8)
+    - GoogleAppMeasurement (= 5.8.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
     - GoogleUtilities/MethodSwizzler (~> 5.2)
     - GoogleUtilities/Network (~> 5.2)
     - "GoogleUtilities/NSData+zlib (~> 5.2)"
     - nanopb (~> 0.3)
-  - FirebaseAuth (5.3.1):
+  - FirebaseAuth (5.4.1):
     - FirebaseAuthInterop (~> 1.0)
     - FirebaseCore (~> 5.2)
     - GoogleUtilities/Environment (~> 5.2)
     - GTMSessionFetcher/Core (~> 1.1)
   - FirebaseAuthInterop (1.0.0)
-  - FirebaseCore (5.3.0):
+  - FirebaseCore (5.4.0):
+    - GoogleUtilities/Environment (~> 5.2)
     - GoogleUtilities/Logger (~> 5.2)
-  - FirebaseDatabase (5.1.0):
+  - FirebaseDatabase (5.1.1):
     - FirebaseAuthInterop (~> 1.0)
     - FirebaseCore (~> 5.2)
     - leveldb-library (~> 1.18)
-  - FirebaseInstanceID (3.5.0):
-    - FirebaseCore (~> 5.3)
-    - GoogleUtilities/Environment (~> 5.3)
-    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebaseInstanceID (3.8.0):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/UserDefaults (~> 5.2)
   - FirebaseUI/Auth (6.1.1):
     - Firebase/Auth (~> 5.0)
     - GoogleUtilities/UserDefaults
   - FirebaseUI/Google (6.1.1):
     - FirebaseUI/Auth
     - GoogleSignIn (~> 4.0)
-  - GoogleAppMeasurement (5.6.0):
+  - GoogleAppMeasurement (5.8.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
     - GoogleUtilities/MethodSwizzler (~> 5.2)
     - GoogleUtilities/Network (~> 5.2)
@@ -64,23 +67,23 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.2.0)
     - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
   - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
-  - GoogleUtilities/AppDelegateSwizzler (5.3.7):
+  - GoogleUtilities/AppDelegateSwizzler (5.5.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (5.3.7)
-  - GoogleUtilities/Logger (5.3.7):
+  - GoogleUtilities/Environment (5.5.0)
+  - GoogleUtilities/Logger (5.5.0):
     - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (5.3.7):
+  - GoogleUtilities/MethodSwizzler (5.5.0):
     - GoogleUtilities/Logger
-  - GoogleUtilities/Network (5.3.7):
+  - GoogleUtilities/Network (5.5.0):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (5.3.7)"
-  - GoogleUtilities/Reachability (5.3.7):
+  - "GoogleUtilities/NSData+zlib (5.5.0)"
+  - GoogleUtilities/Reachability (5.5.0):
     - GoogleUtilities/Logger
-  - GoogleUtilities/UserDefaults (5.3.7):
+  - GoogleUtilities/UserDefaults (5.5.0):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.2.1)
   - leveldb-library (1.20)
@@ -89,20 +92,28 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - SideMenu (5.0.1)
   - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
+  - Alamofire
   - ChameleonFramework
+  - Cosmos
   - Firebase
   - Firebase/Auth
   - Firebase/Database
   - FirebaseUI/Google
   - GoogleSignIn
+  - SideMenu
   - SVProgressHUD
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - ChameleonFramework
+    - Cosmos
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -118,27 +129,33 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
+    - SideMenu
     - SVProgressHUD
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  Firebase: 59d557e064217fab6a03ff00baa73c06e73832e6
-  FirebaseAnalytics: 75e4bbc6417d190cc98ec1f17c41a4fad4c2c976
-  FirebaseAuth: 0f61e1329237da5682c49c9abd135e8f9d07a151
+  Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
+  Firebase: c60d49e9c2630875a96207d15e2affb8364996d1
+  FirebaseAnalytics: fd72a26bf8dac84cefba2f0864366f718555a5b0
+  FirebaseAuth: cbb892a66baed025efc179372598941252acf853
   FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
-  FirebaseCore: c0c4befb82374d6aef64d800e569f47625352edc
-  FirebaseDatabase: 23acb0c53cd4d4070a427b60100b2e4aaa97c45d
-  FirebaseInstanceID: 4522aad88f69297622062c0e9ffccdee3dd9b151
+  FirebaseCore: 22a79a961c3951ef2f77b67bfbc99e454247b319
+  FirebaseDatabase: 2c15b0ea6f2c6eb5e57413f9d6340f1e50b81ae3
+  FirebaseInstanceID: cf488df2f4b79782f0e430b04a0e17c0aa7979b2
   FirebaseUI: 1345f778d53f9484f21474c7b10bba313b28a76b
-  GoogleAppMeasurement: 008e04ecd8efedd97a693aea8634aefe220bd26e
+  GoogleAppMeasurement: 1624046ab1bcc5e170061a56ef5679000b079c8e
   GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
   GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
-  GoogleUtilities: 111a012f4c3a29c9e7c954c082fafd6ee3c999c0
+  GoogleUtilities: 6481e6318c5fcabaaa8513ef8120f329055d7c10
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  SideMenu: 87efd943737bb83aedf0358884d09fcf5576636d
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 2a221973e4a532cddd6c133e8aab705a2e741795
+PODFILE CHECKSUM: c458d24b9bc2f0c45f92137f990fd1edbe7cd84e
 
 COCOAPODS: 1.5.3

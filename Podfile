@@ -13,6 +13,10 @@ target 'RewardMe' do
   pod 'GoogleSignIn'
   pod 'SVProgressHUD'
   pod 'ChameleonFramework'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'Cosmos'
+  pod 'SideMenu'
 end
 
 post_install do |installer|

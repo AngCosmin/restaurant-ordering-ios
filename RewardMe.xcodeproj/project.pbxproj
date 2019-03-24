@@ -12,6 +12,16 @@
 		172076F22226E73C00013EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172076F02226E73C00013EBD /* Main.storyboard */; };
 		172076F42226E73D00013EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172076F32226E73D00013EBD /* Assets.xcassets */; };
 		172076F72226E73D00013EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172076F52226E73D00013EBD /* LaunchScreen.storyboard */; };
+		17BCB2B722466A7000D8D03A /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCB2B622466A7000D8D03A /* ProductsTableViewController.swift */; };
+		17BCB2BA224670DD00D8D03A /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCB2B9224670DD00D8D03A /* MainScreenViewController.swift */; };
+		17BCB2BE22468F3100D8D03A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCB2BD22468F3100D8D03A /* Constants.swift */; };
+		17BCB2C32246A27100D8D03A /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCB2C22246A27100D8D03A /* ProductModel.swift */; };
+		17BCB2C62246B5EB00D8D03A /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCB2C42246B5EB00D8D03A /* ProductTableViewCell.swift */; };
+		17BCB2C72246B5EB00D8D03A /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BCB2C52246B5EB00D8D03A /* ProductTableViewCell.xib */; };
+		17BCB2C92246B94100D8D03A /* DropShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCB2C82246B94100D8D03A /* DropShadowView.swift */; };
+		17BCB2CC2246F40900D8D03A /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCB2CB2246F40900D8D03A /* CartViewController.swift */; };
+		17BCB2CE2246FE3C00D8D03A /* CartProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCB2CD2246FE3C00D8D03A /* CartProductTableViewCell.swift */; };
+		17BCB2D1224713F900D8D03A /* FinishOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCB2D0224713F900D8D03A /* FinishOrderViewController.swift */; };
 		17E55898222742F000FCAA0A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E55897222742F000FCAA0A /* LoginViewController.swift */; };
 		17F3E6222226FDF300AC2A64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17F3E6212226FDF300AC2A64 /* GoogleService-Info.plist */; };
 		389AD34B50F42DFD3B00A010 /* Pods_RewardMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A76D00CAA4AD53717953E37 /* Pods_RewardMe.framework */; };
@@ -25,6 +35,16 @@
 		172076F32226E73D00013EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		172076F62226E73D00013EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		172076F82226E73D00013EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BCB2B622466A7000D8D03A /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		17BCB2B9224670DD00D8D03A /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		17BCB2BD22468F3100D8D03A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		17BCB2C22246A27100D8D03A /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		17BCB2C42246B5EB00D8D03A /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		17BCB2C52246B5EB00D8D03A /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		17BCB2C82246B94100D8D03A /* DropShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadowView.swift; sourceTree = "<group>"; };
+		17BCB2CB2246F40900D8D03A /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		17BCB2CD2246FE3C00D8D03A /* CartProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProductTableViewCell.swift; sourceTree = "<group>"; };
+		17BCB2D0224713F900D8D03A /* FinishOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishOrderViewController.swift; sourceTree = "<group>"; };
 		17E55897222742F000FCAA0A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		17F3E6212226FDF300AC2A64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3A76D00CAA4AD53717953E37 /* Pods_RewardMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RewardMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +85,12 @@
 		172076EB2226E73C00013EBD /* RewardMe */ = {
 			isa = PBXGroup;
 			children = (
+				17BCB2CF224713DB00D8D03A /* FinishOrder */,
+				17BCB2CA2246F3D900D8D03A /* Cart */,
+				17BCB2C12246A26200D8D03A /* Models */,
+				17BCB2BB22468F1C00D8D03A /* Constants */,
+				17BCB2B8224670BA00D8D03A /* MainScreen */,
+				17BCB2B522466A3A00D8D03A /* Products */,
 				17E55896222742B800FCAA0A /* Login */,
 				172076EC2226E73C00013EBD /* AppDelegate.swift */,
 				172076EE2226E73C00013EBD /* ViewController.swift */,
@@ -75,6 +101,58 @@
 				172076F82226E73D00013EBD /* Info.plist */,
 			);
 			path = RewardMe;
+			sourceTree = "<group>";
+		};
+		17BCB2B522466A3A00D8D03A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17BCB2B622466A7000D8D03A /* ProductsTableViewController.swift */,
+				17BCB2C42246B5EB00D8D03A /* ProductTableViewCell.swift */,
+				17BCB2C52246B5EB00D8D03A /* ProductTableViewCell.xib */,
+				17BCB2C82246B94100D8D03A /* DropShadowView.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		17BCB2B8224670BA00D8D03A /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				17BCB2B9224670DD00D8D03A /* MainScreenViewController.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		17BCB2BB22468F1C00D8D03A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				17BCB2BD22468F3100D8D03A /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		17BCB2C12246A26200D8D03A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17BCB2C22246A27100D8D03A /* ProductModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17BCB2CA2246F3D900D8D03A /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				17BCB2CB2246F40900D8D03A /* CartViewController.swift */,
+				17BCB2CD2246FE3C00D8D03A /* CartProductTableViewCell.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		17BCB2CF224713DB00D8D03A /* FinishOrder */ = {
+			isa = PBXGroup;
+			children = (
+				17BCB2D0224713F900D8D03A /* FinishOrderViewController.swift */,
+			);
+			path = FinishOrder;
 			sourceTree = "<group>";
 		};
 		17E55896222742B800FCAA0A /* Login */ = {
@@ -165,6 +243,7 @@
 			files = (
 				172076F72226E73D00013EBD /* LaunchScreen.storyboard in Resources */,
 				172076F42226E73D00013EBD /* Assets.xcassets in Resources */,
+				17BCB2C72246B5EB00D8D03A /* ProductTableViewCell.xib in Resources */,
 				172076F22226E73C00013EBD /* Main.storyboard in Resources */,
 				17F3E6222226FDF300AC2A64 /* GoogleService-Info.plist in Resources */,
 			);
@@ -230,11 +309,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RewardMe/Pods-RewardMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -242,11 +325,15 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -262,9 +349,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17BCB2BA224670DD00D8D03A /* MainScreenViewController.swift in Sources */,
+				17BCB2C62246B5EB00D8D03A /* ProductTableViewCell.swift in Sources */,
+				17BCB2CC2246F40900D8D03A /* CartViewController.swift in Sources */,
 				17E55898222742F000FCAA0A /* LoginViewController.swift in Sources */,
+				17BCB2B722466A7000D8D03A /* ProductsTableViewController.swift in Sources */,
+				17BCB2CE2246FE3C00D8D03A /* CartProductTableViewCell.swift in Sources */,
 				172076EF2226E73C00013EBD /* ViewController.swift in Sources */,
 				172076ED2226E73C00013EBD /* AppDelegate.swift in Sources */,
+				17BCB2C92246B94100D8D03A /* DropShadowView.swift in Sources */,
+				17BCB2BE22468F3100D8D03A /* Constants.swift in Sources */,
+				17BCB2D1224713F900D8D03A /* FinishOrderViewController.swift in Sources */,
+				17BCB2C32246A27100D8D03A /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
