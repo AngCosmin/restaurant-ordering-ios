@@ -9,5 +9,5 @@
 import Foundation
 
 struct Constants {
-    static let API_URL: String = "http://10.81.178.141:5000"
+    static let API_URL: String = "http://192.168.0.119:5000"
 }

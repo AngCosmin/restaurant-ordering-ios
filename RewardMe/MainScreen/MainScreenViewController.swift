@@ -24,17 +24,22 @@ class MainScreenViewController: UIViewController, AVCaptureMetadataOutputObjects
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        do {
-            try scanQRCode()
+        
+        if Auth.auth().currentUser == nil {
+            performSegue(withIdentifier: "goToLogin", sender: self)
         }
-        catch {
-            print("Failed to scan QR code")
+        else {
+            do {
+                try scanQRCode()
+            }
+            catch {
+                print("Failed to scan QR code")
+            }
         }
     }
     
-    @IBAction func onScanQRPressed(_ sender: Any) {
-        self.performSegue(withIdentifier: "goToProducts", sender: self)
+    @IBAction func onProfilePressed(_ sender: Any) {
+        self.performSegue(withIdentifier: "goToProfile", sender: self)
     }
     
     override func didReceiveMemoryWarning() {

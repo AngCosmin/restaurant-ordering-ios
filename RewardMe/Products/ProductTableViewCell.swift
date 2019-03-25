@@ -25,6 +25,8 @@ class ProductTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        self.selectionStyle = .none
+        
         // Initialization code
         cardContainerView.layer.cornerRadius = cornerRadius
         cardContainerView.layer.shadowColor = UIColor.gray.cgColor

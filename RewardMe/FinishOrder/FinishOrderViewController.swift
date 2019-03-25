@@ -25,6 +25,9 @@ class FinishOrderViewController: UIViewController {
 
         Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(checkStatus), userInfo: nil, repeats: true)
         
+        self.payButton.isEnabled = false
+        self.payButton.backgroundColor = UIColor(red:0.74, green:0.76, blue:0.78, alpha:1.0)
+        
         ratingButton.didFinishTouchingCosmos = { rating in
             self.rating = rating
         }
@@ -44,10 +47,16 @@ class FinishOrderViewController: UIViewController {
             
             if status == 1 {
                 self.orderStatus.text = "Pending"
+                
+                self.payButton.isEnabled = false
+                self.payButton.backgroundColor = UIColor(red:0.74, green:0.76, blue:0.78, alpha:1.0)
             }
             else if status == 2 {
                 self.orderStatus.text = "Recived"
                 self.orderStatus.textColor = UIColor(red:0.15, green:0.68, blue:0.38, alpha:1.0)
+                
+                self.payButton.isEnabled = true
+                self.payButton.backgroundColor = UIColor(red:0.95, green:0.59, blue:0.22, alpha:1.0)
             }
             else if status == 3 {
                 self.orderStatus.text = "Paid"
